@@ -23,10 +23,6 @@ jobsPerHospitals = {
     "iowa": 1,
     "slc": 2
 }
-# m hospitals, each with a certain number of available positions for hiring residents. 
-# n medical students graduating in a given year, each interested in joining one of the hospitals
-# Each hospital had a ranking of the students in order of preference, and each student had a ranking of the hospitals in order of preference. 
-# We will assume that there were more students graduating than there were slots available in the m hospitals.
 
 def main():
     students = studentPref.keys()
